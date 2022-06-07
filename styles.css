@@ -206,7 +206,7 @@ main{
     }
 
     .main_img img{
-        width: 50vw;
+        width: 55vw;
         height: 45vh;
         padding-top: 4vh;
     }
@@ -340,17 +340,18 @@ footer{
     }
 
     .text{
+        border: solid;
         width: 70%;
         display: flex;
         flex-direction: column;
     }
 
     .footer_text h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .footer_text p{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .button{
