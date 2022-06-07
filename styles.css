@@ -142,7 +142,6 @@ main{
     cursor: pointer;
     transform: scale(1.1);
     font-weight: 500;
-    box-shadow: 1px 2px 2px rgba(0,0,0,0.5);
 }
 
 @media(max-width:775px){
@@ -166,7 +165,10 @@ main{
     }
 
     .botao1{
-        font-size: 1rem;
+        width: 45vw;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 0.8rem;
         padding-left: 5vw;
         padding-top: 5vh;
     }
@@ -175,10 +177,10 @@ main{
 .main_img{
     background-color: white;
     width: 90%;
-    height:150vh;
+    padding-top: 4vh;
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     overflow: hidden;
 }
@@ -186,6 +188,7 @@ main{
 .main_img img{
     width:20vw;
     height:40vh;
+    padding-top: 4vh;
 }
 
 .main_img img:hover{
@@ -196,7 +199,7 @@ main{
 @media(max-width:775px){
     .main_img{
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         width:100%;
@@ -204,8 +207,8 @@ main{
 
     .main_img img{
         width: 50vw;
-        height: 50vh;
-        padding-top: 2vh;
+        height: 45vh;
+        padding-top: 4vh;
     }
 
     .img1{
