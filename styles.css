@@ -340,7 +340,6 @@ footer{
     }
 
     .text{
-        border: solid;
         width: 70%;
         display: flex;
         flex-direction: column;
